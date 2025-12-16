@@ -3,18 +3,9 @@
 **Онлайн-платформа для соревновательной игры в судоку с рейтинговой системой**
 
 [![C++](https://img.shields.io/badge/C++-17-blue.svg)](https://isocpp.org/)
-[![SFML](https://img.shields.io/badge/SFML-2.5-green.svg)](https://www.sfml-dev.org/)
+[![SFML](https://img.shields.io/badge/SFML-2.5-blue.svg)](https://www.sfml-dev.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue.svg)](https://www.postgresql.org/)
 [![Docker](https://img.shields.io/badge/Docker-🦊-blue.svg)](https://www.docker.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]()
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Version-1.0.0-important" alt="Version">
-  <img src="https://img.shields.io/badge/Multiplayer-Online-success" alt="Multiplayer">
-  <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20macOS%20%7C%20Docker-informational" alt="Platform">
-  <img src="https://img.shields.io/badge/Author-brkvngln-blue" alt="Author">
-</div>
 
 ## 🎮 О проекте
 
@@ -120,23 +111,6 @@ coursework/
 │   └── test_data.sql       # Тестовые данные
 ├── resources/               # Ресурсы приложения
 │   ├── fonts/              # Шрифты
-│   ├── sounds/             # Звуковые эффекты
-│   ├── images/             # Изображения
-│   └── music/              # Фоновая музыка
-├── docs/                    # Документация
-│   ├── API.md              # API документация
-│   ├── ARCHITECTURE.md     # Архитектура системы
-│   ├── DEPLOYMENT.md       # Руководство по развертыванию
-│   └── USER_GUIDE.md       # Руководство пользователя
-├── tests/                   # Тесты
-│   ├── unit/               # Юнит-тесты
-│   ├── integration/        # Интеграционные тесты
-│   └── performance/        # Тесты производительности
-├── scripts/                 # Вспомогательные скрипты
-│   ├── setup.sh            # Скрипт установки
-│   ├── backup.sh           # Резервное копирование БД
-│   ├── monitor.sh          # Мониторинг системы
-│   └── migrate.sh          # Миграции базы данных
 ├── Makefile                # Сборка проекта
 ├── CMakeLists.txt          # Альтернативная сборка CMake
 ├── docker-compose.yml      # Основной compose файл
